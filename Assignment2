@@ -1,0 +1,16 @@
+// 1.Triangle definition
+function Triangle(s1,s2,s3){
+    if(s1==s2 && s2==s3){
+        return "Equilateral triangle";
+    }
+    else if(s1==s2|| s2==s3|| s3==s1){
+        return "Isoceles Triangle";
+    }
+    else{
+        return "Scalen Triangle";
+    }
+}
+let s1=2;
+let s2=21;
+let s3=20;
+console.log(Triangle(s1,s2,s3));
