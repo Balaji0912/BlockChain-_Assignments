@@ -27,3 +27,30 @@ if(sum==n)
 console.log(n+" is Amstrong Number");
 else
 console.log(n+" is Not Amstrong Number");
+
+
+//3.Perfect Number
+function fact(rem){
+    var fact=1;
+    for(let i=1;i<=rem;i++){
+        fact=fact*i;
+    }
+    return fact;
+}
+
+function perfectNum(n){
+    var sum=0;
+    while (n!=0){
+        let rem= n%10;
+        n=Math.floor(n/10);
+        sum=sum+fact(rem);
+    }
+    return sum;
+}
+let n=145;
+sum=perfectNum(n);
+if (sum==n)
+console.log(n+" is Perfect Number");
+else
+console.log(n+" is not Perfect Number");
+
