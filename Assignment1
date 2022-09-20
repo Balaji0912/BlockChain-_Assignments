@@ -6,3 +6,12 @@ if(year%4==0){
 else{
     console.log(year+" is not a leap year");
 }
+
+
+// 2.Temprature to Fahrenheit
+let c=60
+let f=45
+f1=((c/5)*9)+32;
+c1=((f-32)/9)*5
+console.log(c+"\u00B0C is "+f1+"\u00B0F");
+console.log(f+"\u00B0C is "+c1+"\u00B0F");
