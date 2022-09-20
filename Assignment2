@@ -58,3 +58,23 @@ for(let i=1; i<=1000; i++){
     }
 }
 console.log(sum);
+
+
+// 4.Factorial of Prime numbers within given range
+function PrimeFact(n1,n2){
+    var fact=1;
+for(let i=n1;i<=n2;i++){    
+    var flag=0;
+    for(let j=2; j<=i/2;j++){
+        if(i%j==0){
+            flag=1;
+            break;
+        }
+    }
+    if(flag==0){
+        fact*= i;
+    }
+}
+return fact;
+}
+console.log(PrimeFact(1,5));
