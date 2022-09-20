@@ -14,3 +14,37 @@ let s1=2;
 let s2=21;
 let s3=20;
 console.log(Triangle(s1,s2,s3));
+
+
+// 2.Garde system
+function grade(mark){
+    let G;
+switch(true) {
+    case (mark>90 && mark<=100):
+      G="S";
+      break;
+    case (mark>80 && mark<=90):
+      G="A";
+      break;
+    case (mark>70 && mark<=80):
+      G="B";
+      break; 
+    case (mark>60 && mark<=70):
+      G="C";
+      break; 
+    case (mark>50 && mark<=60):
+      G="D";
+      break;
+    case (mark>=40 && mark<=50):
+      G="E";
+      break;
+    case (mark<40 && mark>=0):
+      G="Student has Failed";
+      break;
+    default:
+      G="Invalid Marks";
+  }
+  return G;
+}
+let mark=90;
+console.log(grade(mark));
