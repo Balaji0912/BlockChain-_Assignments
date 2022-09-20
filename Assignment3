@@ -9,3 +9,21 @@ for (let i=0; i<=3;i++){
     string+="\n";
 }
 console.log(string);
+
+
+//2.Amstrong number
+function Amst(n){
+    let sum=0;
+    while(n!=0){
+    let rem=n%10;
+    n=Math.floor(n/10)
+    sum = sum + (rem*rem*rem)
+    }
+    return sum;
+}
+let n=321;
+sum=Amst(n);
+if(sum==n)
+console.log(n+" is Amstrong Number");
+else
+console.log(n+" is Not Amstrong Number");
