@@ -15,3 +15,12 @@ f1=((c/5)*9)+32;
 c1=((f-32)/9)*5
 console.log(c+"\u00B0C is "+f1+"\u00B0F");
 console.log(f+"\u00B0C is "+c1+"\u00B0F");
+
+
+// 3.Factorial 
+let n=5;
+fact=1;
+for(i=1;i<=n;i++){
+    fact*=i;
+}
+console.log(fact);
