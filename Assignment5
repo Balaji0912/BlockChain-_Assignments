@@ -1,0 +1,23 @@
+//Finding Volumes of Cylinder, Sphere, Cone
+class Cylinder{
+    getVolume(radius,height){
+        let Volume=Math.PI*radius*radius*height;
+        console.log(Volume.toFixed(4));
+    }
+}
+class Sphere{
+    getVolume(){
+        let Volume=(4/3)*Math.PI*radius*radius*radius;
+        console.log(Volume.toFixed(4));
+    }
+}
+class Cone{
+    getVolume(){
+        let Volume=(Math.PI*radius*radius*height)/3;
+        console.log(Volume.toFixed(4));
+    }
+}
+let radius=5;
+let height=6;
+let obj= new Sphere();
+obj.getVolume(radius,height);
