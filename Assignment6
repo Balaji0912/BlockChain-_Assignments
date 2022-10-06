@@ -1,0 +1,19 @@
+//Area of square using Inheritance...
+class Rectangle{
+    constructo(side){
+        this.side=side;
+    }
+    Area(){
+        let area = side*side;
+        return area;
+    }
+}
+class Square extends Rectangle{
+    constructor(side){
+        super(side)
+    }
+}
+
+let obj= new Square();
+side=3;
+console.log(obj.Area(side));
