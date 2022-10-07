@@ -1,4 +1,4 @@
-//Area of square using Inheritance...
+//1)Area of square using Inheritance...
 class Rectangle{
     constructo(side){
         this.side=side;
@@ -17,3 +17,11 @@ class Square extends Rectangle{
 let obj= new Square();
 side=3;
 console.log(obj.Area(side));
+
+
+//2)sort and fine the nth largest numer in an array
+let arr=[2,33,1,44,2,66,5,4,7,67,8];
+let n=3
+let arr1=arr.sort(function(a, b){return a - b});
+let arr2=arr1.reverse();
+console.log(arr2[n-1]);
