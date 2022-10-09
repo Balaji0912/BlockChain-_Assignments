@@ -25,3 +25,24 @@ let n=3
 let arr1=arr.sort(function(a, b){return a - b});
 let arr2=arr1.reverse();
 console.log(arr2[n-1]);
+
+
+// 3)insert dash betwwen two even numbers
+let n=12485934968465;
+function dash(n){
+    let str=n.toString();
+    let a=str.split("")
+    var str1=a[0];
+    for(i=1;i<a.length; i++){
+        
+            if(a[i]%2==0 && a[i+1]%2==0){
+                a[i]=a[i].concat("-")
+                str1=str1.concat(a[i]);
+            }
+            else
+                str1=str1.concat(a[i]);
+        
+    }
+    console.log(str1);
+}
+dash(n);
