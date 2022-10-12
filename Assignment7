@@ -13,3 +13,7 @@ console.log(S.replace(/ /g,""));
 // 3)reverse String by words
 let S="Hii Boy";
 console.log(S.split(" ").reverse().join(" "));
+
+// 4)replace 'a' with 'x'
+let S="apple";
+console.log(S.replace(/a/g, 'x'));
