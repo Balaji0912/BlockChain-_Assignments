@@ -1,0 +1,7 @@
+// 1)truncate the Sing 
+let S="Icecream";
+if(S.length<=4)
+    console.log(S);
+else{
+    console.log(S.slice(0,4)+"...");
+}
