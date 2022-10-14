@@ -17,3 +17,17 @@ console.log(S.split(" ").reverse().join(" "));
 // 4)replace 'a' with 'x'
 let S="apple";
 console.log(S.replace(/a/g, 'x'));
+
+// 5)Method used to convert a string into array is 
+ANS: split()
+
+// 6)What string method can be used to check the occurrence of a specified
+// text in a string?  
+ANS:match()
+
+// 7)Break string into new line
+let S="hey you there?";
+let arr=S.split(" ");
+for(let val of arr){
+        console.log(val)
+    }
