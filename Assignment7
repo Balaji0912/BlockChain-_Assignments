@@ -29,5 +29,17 @@ ANS:match()
 let S="hey you there?";
 let arr=S.split(" ");
 for(let val of arr){
-        console.log(val)
-    }
+   console.log(val)
+}
+
+// 8)check the frst char is lower or not
+function Check(a){
+    let regex=/^[a-z]/;
+    if(regex.test(a))
+        console.log("Yes, 1st char is lowercase");
+    else
+        console.log("No, 1st char is not lowercase");
+}
+Check("I'm an alien")
+    
+
