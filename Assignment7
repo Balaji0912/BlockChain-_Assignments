@@ -42,4 +42,7 @@ function Check(a){
 }
 Check("I'm an alien")
     
-
+// 9) Checking string
+let str="YeS";
+let regex= new RegExp(/yes/gi);
+console.log(regex.test(str)); 
