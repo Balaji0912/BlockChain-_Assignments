@@ -46,3 +46,8 @@ Check("I'm an alien")
 let str="YeS";
 let regex= new RegExp(/yes/gi);
 console.log(regex.test(str)); 
+
+// 10)String operations
+// upper case code
+let S="moMento" 
+console.log(S.toUpperCase()); 
