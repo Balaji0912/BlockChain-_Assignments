@@ -56,3 +56,7 @@ console.log(S.toUpperCase());
 let S="moMento" 
 console.log(S.charAt(0).toUpperCase()+S.slice(1)); 
 
+// lowercase
+let S="moMento" 
+console.log(S.toLowerCase()); //lowercase
+
