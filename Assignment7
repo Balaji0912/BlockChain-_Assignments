@@ -60,3 +60,8 @@ console.log(S.charAt(0).toUpperCase()+S.slice(1));
 let S="moMento" 
 console.log(S.toLowerCase()); //lowercase
 
+//string to swap between two half
+let S="moMento" 
+let s1=S.slice(0,S.length/2)
+let s2=S.slice(S.length/2,S.length)
+console.log(s2+s1);
