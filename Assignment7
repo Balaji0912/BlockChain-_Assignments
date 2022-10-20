@@ -51,3 +51,8 @@ console.log(regex.test(str));
 // upper case code
 let S="moMento" 
 console.log(S.toUpperCase()); 
+
+// first letter to uppercase
+let S="moMento" 
+console.log(S.charAt(0).toUpperCase()+S.slice(1)); 
+
