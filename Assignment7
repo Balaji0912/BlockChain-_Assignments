@@ -65,3 +65,8 @@ let S="moMento"
 let s1=S.slice(0,S.length/2)
 let s2=S.slice(S.length/2,S.length)
 console.log(s2+s1);
+
+//count the number of repeating character
+let S="moMento" 
+let a=(S.match(/m/gi));
+console.log(a.length);
