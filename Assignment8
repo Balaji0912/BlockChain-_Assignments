@@ -1,2 +1,10 @@
 // 1. Can we put duplicate values in the set object ?
 No, dup,icate values are not allowed in set objects
+
+// 2.syntax for
+// a) Creating new set object
+let Object_name=new set();
+// b) Adding new element to set object
+Object_name.add();
+// c) Deleting element from set object
+Object_name.delete();
