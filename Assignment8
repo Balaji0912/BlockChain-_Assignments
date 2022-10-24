@@ -8,3 +8,19 @@ let Object_name=new set();
 Object_name.add();
 // c) Deleting element from set object
 Object_name.delete();
+
+// 3)Set operation
+let a=new Set();
+for(let i=1;i<=4;i++){
+    b=(Math.floor((Math.random()*10)));
+    a.add(b);
+    }
+if(a.size<4){
+    b=(Math.floor((Math.random()*10)));
+    a.add(b);
+    }
+console.log(a);
+if(a.has(8))
+console.log("8 is present");
+else
+console.log("8 is not present");
