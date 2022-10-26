@@ -1,0 +1,3 @@
+// 1. Carefully observe this example.
+// a) Is the InnerFunction() a closure?
+Yes it is a Closure
