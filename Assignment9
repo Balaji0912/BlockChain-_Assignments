@@ -22,3 +22,16 @@ Output: 100
 // 3. What is a lexical scope and how is it related to closure?
     Closure is the nesting of functions and the inner funtions will have the ability to access
 the variables declared in outer functions which is called the lexical scope.
+
+/* 4. Output of following closure ?
+for (var i = 0; i < 3; i++) {
+setTimeout(function log() {
+console.log(i); // What is logged?
+}, 1000);
+} */
+
+Output:
+Takes time of 1 second and print the below
+3
+3
+3
