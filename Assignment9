@@ -14,3 +14,11 @@ var innerFunc = OuterFunction();
 innerFunc();   */
 
 Output: 100
+
+//2. What is the difference between a closure and a scope?
+    The accessiblity of a object or a variable is within the function in which it declared.
+    When we declare a function within a function, the inner function is called as closure.
+    
+// 3. What is a lexical scope and how is it related to closure?
+    Closure is the nesting of functions and the inner funtions will have the ability to access
+the variables declared in outer functions which is called the lexical scope.
