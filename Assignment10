@@ -1,0 +1,5 @@
+// 1. Are Higher Order functions and Call back functions the same ? If not,
+//briefly explain about both functions.
+Higher order and call back functions are not same
+Higher order functions can receive a function as an argument and can return a function as value
+Call back functions are those which passed to other function
