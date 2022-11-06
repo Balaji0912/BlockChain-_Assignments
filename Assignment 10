@@ -40,3 +40,6 @@ Hello John
 Hello Tina
 Hello Kale
 Hello Max
+
+// b) Which function is a Higher Order function here ?
+useFunction()
