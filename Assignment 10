@@ -10,7 +10,7 @@ Yes filter is a Higher order function in JS because it returns a new data struct
 // 3. Give an example of a Higher Order function and a call back function used in the same program.
 const value= [1,2,3,4,5,6,7,8,9,10]
 function val(arr,fn){
-for(let i=0; i<arr.length; i++){
+for(let i=0; i<arr.length; i++){  
 fn(arr[i]);
 }
 }
