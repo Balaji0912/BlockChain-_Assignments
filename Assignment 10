@@ -4,6 +4,7 @@ Higher order and call back functions are not same
 Higher order functions can receive a function as an argument and can return a function as value
 Call back functions are those which passed to other function
 
+
 // 2. Is filter a Higher Order function in Javascript ? If yes, why ?
 Yes filter is a Higher order function in JS because it returns a new data structure but using the given data structure
 
