@@ -1,0 +1,14 @@
+// 1. Write a JavaScript program to take an array as input from the user and calculate
+// the sum of numbers in odd places and the sum of numbers at even places.
+let arr=[1,2,3,4,5];
+var os=0, es=0, oc=0, ec=0;
+for (let i =0;i<arr.length;i++) {0
+    if (i%2==0) {
+       os+= arr[i];
+       oc++;1
+    }
+    else{
+    es+= arr[i];
+    ec++;1
+    }
+}
