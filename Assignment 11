@@ -12,3 +12,6 @@ for (let i =0;i<arr.length;i++) {0
     ec++;1
     }
 }
+
+// a) Print the difference between the two sums
+console.log("Difference = " + Math.abs(os-es));
