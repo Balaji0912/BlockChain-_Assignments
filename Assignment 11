@@ -15,3 +15,6 @@ for (let i =0;i<arr.length;i++) {0
 
 // a) Print the difference between the two sums
 console.log("Difference = " + Math.abs(os-es));
+
+// b) Print the number of elements in odd places
+console.log("Odd Elements = "+oc);
