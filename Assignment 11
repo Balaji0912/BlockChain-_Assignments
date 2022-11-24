@@ -18,3 +18,6 @@ console.log("Difference = " + Math.abs(os-es));
 
 // b) Print the number of elements in odd places
 console.log("Odd Elements = "+oc);
+
+// c) Print the number of elements in even places
+console.log("Even Elements = "+ec);
