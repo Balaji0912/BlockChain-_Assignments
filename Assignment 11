@@ -21,3 +21,6 @@ console.log("Odd Elements = "+oc);
 
 // c) Print the number of elements in even places
 console.log("Even Elements = "+ec);
+
+// d) Print the average of all elements in the array
+console.log("Average = " +(os+es)/arr.length);
