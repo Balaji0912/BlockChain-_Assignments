@@ -24,3 +24,11 @@ console.log("Even Elements = "+ec);
 
 // d) Print the average of all elements in the array
 console.log("Average = " +(os+es)/arr.length);
+
+// e) Print GCD of Sum of Numbers at Odd Places and Sum of Numbers at Even Places
+let GCD;
+for(let j=0; j<=os && j<=es;j++){
+    if(es%j==0 && os%j==0)
+    GCD=j;
+}
+console.log("GCD = " +GCD);
